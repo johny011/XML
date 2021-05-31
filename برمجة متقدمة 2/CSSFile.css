@@ -1,4 +1,8 @@
-﻿.add, .btnadd {
+﻿body{
+    background-color:black;
+
+}
+.add, .btnadd {
     margin-left: 40px;
     height: 25px;
     margin-top: 10px;

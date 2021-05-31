@@ -46,29 +46,27 @@
                 <asp:TextBox ID="Txt_Age" runat="server" CssClass="txtedit" placeholder="Age"></asp:TextBox>
                 <br /><br />
                 <asp:Label ID="Label11" runat="server" CssClass="edit" Text="Year"></asp:Label>
-                <asp:TextBox ID="Txt_Year" runat="server" CssClass="txtedit"></asp:TextBox>
+                <asp:TextBox ID="Txt_Year" runat="server" CssClass="txtedit" placeholder="Year"></asp:TextBox>
                 <br /><br />
                 <asp:Button ID="Btn_Edit" runat="server" Text="Edit" CssClass="btnedit" OnClick="Btn_Edit_Click" BorderStyle="None" />
                 <br />
             </asp:Panel>
             <br />
             <asp:Panel ID="Panel3" runat="server" Height="235px" Width="953px" CssClass="panel" >
-                <asp:Label ID="Label3" runat="server" Text="Add:" CssClass="head"></asp:Label>
+                
                 <br />
-                <asp:Label ID="Label12" runat="server" Text="ID" CssClass="add"></asp:Label>
+                
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="Id" runat="server" Height="20px" Width="130px"></asp:TextBox>
+                <asp:TextBox ID="Id" runat="server" Height="20px" Width="130px" placeholder="ID"></asp:TextBox>
                 <br />
                 
                 <asp:TextBox ID="Name" runat="server" Height="20px" Width="130px" CssClass="add" placeholder="Name"></asp:TextBox>
                 <br />
-                <asp:Label ID="Label6" runat="server" Text="Age" CssClass="add"></asp:Label>
-                &nbsp;&nbsp;
-                <asp:TextBox ID="Age" runat="server" CssClass="add" Height="20px" Width="130px"></asp:TextBox>
+                
+                <asp:TextBox ID="Age" runat="server" CssClass="add" Height="20px" Width="130px" placeholder="Age"></asp:TextBox>
                 <br />
-                <asp:Label ID="Label5" runat="server" Text="Year" CssClass="add"></asp:Label>
-                &nbsp;
-                <asp:TextBox ID="Year" runat="server" CssClass="add" Height="20px" Width="130px"></asp:TextBox>
+                
+                <asp:TextBox ID="Year" runat="server" CssClass="add" Height="20px" Width="130px" placeholder="Year"></asp:TextBox>
                 <br />
                 <br />
                 <asp:Button ID="Btn_Add" runat="server" BorderStyle="None" CssClass="btnadd" OnClick="Btn_Add_Click" Text="Add" />
